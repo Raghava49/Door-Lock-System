@@ -27,7 +27,7 @@ sbit r4=P3^3;
 int z;
 unsigned char i,k,y;
 unsigned char mess1[]=" ENTER PASSWORD";
-unsigned char pass[10];
+unsigned char pass[] = "123456789";
 unsigned char mwell[]="    WELCOME";
 unsigned char errpass[]=" PASSWORD ERROR";
 unsigned char pass1[10];
@@ -52,20 +52,7 @@ main()
 	dscmd(0xC0);
 	
 	while(1)
-	{
-		
-				
-	
-	pass[0]='1';
-	pass[1]='5';
-	pass[2]='9';
-	pass[3]='7';
-	pass[4]='5';
-	pass[5]='3';
-	pass[6]='4';
-	pass[7]='5';
-	pass[8]='6';
-	
+	{	
 	while(1)
 	{
 		
