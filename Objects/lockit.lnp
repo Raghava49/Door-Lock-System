@@ -1,0 +1,3 @@
+".\Objects\doo_lock.obj" 
+TO ".\Objects\lockit" 
+PRINT(".\Listings\lockit.m51")

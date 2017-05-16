@@ -1,0 +1,3 @@
+".\Objects\doo_lock.obj" 
+TO ".\Objects\enter" 
+PRINT(".\Listings\enter.m51")

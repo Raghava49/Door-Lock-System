@@ -1,0 +1,45 @@
+C51 COMPILER V9.54   EMB                                                                   09/20/2015 20:09:30 PAGE 1   
+
+
+C51 COMPILER V9.54, COMPILATION OF MODULE EMB
+OBJECT MODULE PLACED IN .\Objects\emb.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE G:\RAVI\emb.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listin
+                    -gs\emb.lst) TABS(2) OBJECT(.\Objects\emb.obj)
+
+line level    source
+
+   1          #include<reg51.h>
+   2          unsigned char name[4]="ravi";
+   3          void delay(unsigned int a);
+   4          unsigned int i,j,z;
+   5          void main()
+   6          {
+   7   1        while(1){
+   8   2      for(i=0;i<=3;i++)
+   9   2        {
+  10   3          P2=name[i];
+  11   3          delay(1);
+  12   3        }
+  13   2      }
+  14   1        }
+  15          void delay(unsigned int a)
+  16          {
+  17   1        for(j=0;j<=a;j++)
+  18   1        {
+  19   2          for(z=0;z<=30000;z++);
+  20   2        }
+  21   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     85    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     10    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

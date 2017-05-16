@@ -1,0 +1,3 @@
+".\Objects\emb.obj" 
+TO ".\Objects\emb" 
+PRINT(".\Listings\emb.m51")
